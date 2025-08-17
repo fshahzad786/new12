@@ -2,7 +2,7 @@
 
 # Define an extended array of logical names
 logical_names=(
-  "service" "systemd" "python" "java" "node" "nginx" "apache" "redis" "mysql" "postgresql"
+  "ser" "systemd" "python" "java" "node" "nginx" "apache" "redis" "mysql" "postgresql"
   "mongodb" "memcached" "elasticsearch" "rabbitmq" "kafka" "docker" "java_agent" "nodejs" "perl"
   "php" "ruby" "go" "python3" "golang" "redis-server" "mongod" "nginx-worker" "haproxy"
   "mysql-server" "postgres" "mongodb-server" "webserver" "api-server" "db-server" "worker-node"
